@@ -1,0 +1,122 @@
+{
+  "_comment": "SOURCE OF TRUTH for this org's roster. Add a property = add one object to items[], then push (the Action rebuilds profile/README.md). Fields: name, domain, url (null = no public door), tag, status (live|building|soon|private), src ({label, url} or null; private repos carry no url).",
+  "statuses": {
+    "live": {
+      "dot": "🟢",
+      "label": "Live"
+    },
+    "building": {
+      "dot": "🟡",
+      "label": "Building"
+    },
+    "soon": {
+      "dot": "🔵",
+      "label": "Soon"
+    },
+    "private": {
+      "dot": "🔒",
+      "label": "Private"
+    }
+  },
+  "items": [
+    {
+      "name": "Skin",
+      "domain": "@savage-suite/skin",
+      "url": null,
+      "tag": "Design system",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-SKIN",
+        "url": null
+      }
+    },
+    {
+      "name": "Kit",
+      "domain": "feature modules",
+      "url": null,
+      "tag": "Copy-in modules",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-KIT",
+        "url": null
+      }
+    },
+    {
+      "name": "Contracts",
+      "domain": "cross-repo wire",
+      "url": null,
+      "tag": "Contract",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-CONTRACTS",
+        "url": null
+      }
+    },
+    {
+      "name": "Ledger",
+      "domain": "client conversations",
+      "url": null,
+      "tag": "AI OS spine",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-LEDGER",
+        "url": null
+      }
+    },
+    {
+      "name": "Relay",
+      "domain": "ingest + read layer",
+      "url": null,
+      "tag": "Data",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-RELAY",
+        "url": null
+      }
+    },
+    {
+      "name": "Onyx Widget",
+      "domain": "client feedback",
+      "url": null,
+      "tag": "Widget",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-ONYX",
+        "url": null
+      }
+    },
+    {
+      "name": "SAVAGE MCP",
+      "domain": "Hermes-facing servers",
+      "url": null,
+      "tag": "Agents",
+      "status": "private",
+      "src": {
+        "label": "GRAM-BOT",
+        "url": null
+      }
+    },
+    {
+      "name": "Plugin",
+      "domain": "Claude Code",
+      "url": null,
+      "tag": "Tooling",
+      "status": "private",
+      "src": {
+        "label": "savage-plugin",
+        "url": null
+      }
+    },
+    {
+      "name": "Agency Template",
+      "domain": "agency-template-mu.vercel.app",
+      "url": "https://agency-template-mu.vercel.app",
+      "tag": "Model-site template",
+      "status": "live",
+      "src": {
+        "label": "AGENCY-TEMPLATE",
+        "url": null
+      }
+    }
+  ]
+}

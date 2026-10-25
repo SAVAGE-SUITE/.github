@@ -1,0 +1,66 @@
+{
+  "kind": "org",
+  "login": "SAVAGE-SUITE",
+  "hero": "hero-savage-suite.svg",
+  "brand": "SAVAGE SUITE",
+  "tagline": "THE ENGINE UNDER THE HOUSE",
+  "blurb": "One skin, one kit, one contract — the engine every face in the house runs on.",
+  "duo": [
+    {
+      "name": "THE ARCHITECT",
+      "nameSvg": "name-the-architect.svg",
+      "img": "architect.webp",
+      "alt": "Niko — The Architect",
+      "caption": "PRODUCER · ENGINEER · THE ONE WHO SHIPS"
+    },
+    {
+      "name": "ONYX",
+      "nameSvg": "name-onyx.svg",
+      "img": "onyx.webp",
+      "alt": "Onyx — the Bengal",
+      "caption": "CHIEF QUALITY BENGAL · STUDIO ENFORCER"
+    }
+  ],
+  "rosterTitle": "The roster",
+  "lastCol": "Build",
+  "law": [
+    "ONE SKIN · ONE KIT · ONE CONTRACT",
+    "TOKENS OUTRANK DOCS · GOLD IS FOIL, NEVER PAINT"
+  ],
+  "footer": "THE ENGINE ROOM · PRIVATE PACKAGES · BUILT FOR THE HOUSE",
+  "signature": "SAVAGE SUITE",
+  "house": [
+    {
+      "name": "SAVAGE CEO",
+      "login": "savageceo"
+    },
+    {
+      "name": "SAVAGE STUDIO",
+      "login": "SAVAGE-STUDIO-INC"
+    },
+    {
+      "name": "SAVAGE ROSTER",
+      "login": "SAVAGE-ROSTER"
+    },
+    {
+      "name": "SAVAGE SUITE",
+      "login": "SAVAGE-SUITE"
+    },
+    {
+      "name": "SAVAGE CITY",
+      "login": "SAVAGE-CITY"
+    },
+    {
+      "name": "SAVAGE BUNNY",
+      "login": "SAVAGE-BUNNY"
+    },
+    {
+      "name": "SAVAGE CLIENTS",
+      "login": "SAVAGE-CLIENTS"
+    },
+    {
+      "name": "GHOST CROWN",
+      "login": "GHOST-CROWN"
+    }
+  ]
+}
