@@ -1,5 +1,5 @@
 {
-  "_comment": "SOURCE OF TRUTH for this org's roster. Add a property = add one object to items[], then push (the Action rebuilds profile/README.md). Fields: name, domain, url (null = no public door), tag, status (live|building|soon|private), src ({label, url} or null; private repos carry no url).",
+  "_comment": "SOURCE OF TRUTH for this roster. Add a build = add one object to items[], then push (the Action rebuilds the README). Fields: name, domain, url (null = no public door), tag, status (live|building|soon|private), src ({label, url} or null; private repos carry no url), logo (the build's tile on the wall: a file under assets/. It ships as a placeholder with the name set in MBF Royal; overwrite that file with the real logo, same name, on a 5:3 canvas such as 1500x900, so the wall stays even. A PNG works too: change the extension here. Omit logo to keep a build off the wall).",
   "statuses": {
     "live": {
       "dot": "🟢",
@@ -28,7 +28,8 @@
       "src": {
         "label": "SAVAGE-SKIN",
         "url": null
-      }
+      },
+      "logo": "logos/skin.svg"
     },
     {
       "name": "Kit",
@@ -39,7 +40,8 @@
       "src": {
         "label": "SAVAGE-KIT",
         "url": null
-      }
+      },
+      "logo": "logos/kit.svg"
     },
     {
       "name": "Contracts",
@@ -50,7 +52,20 @@
       "src": {
         "label": "SAVAGE-CONTRACTS",
         "url": null
-      }
+      },
+      "logo": "logos/contracts.svg"
+    },
+    {
+      "name": "Royal Font",
+      "domain": "MBF Royal",
+      "url": null,
+      "tag": "House display face",
+      "status": "private",
+      "src": {
+        "label": "ROYAL-FONT",
+        "url": null
+      },
+      "logo": "logos/royal-font.svg"
     },
     {
       "name": "Ledger",
@@ -61,7 +76,8 @@
       "src": {
         "label": "SAVAGE-LEDGER",
         "url": null
-      }
+      },
+      "logo": "logos/ledger.svg"
     },
     {
       "name": "Relay",
@@ -72,18 +88,44 @@
       "src": {
         "label": "SAVAGE-RELAY",
         "url": null
-      }
+      },
+      "logo": "logos/relay.svg"
     },
     {
-      "name": "Onyx Widget",
-      "domain": "client feedback",
+      "name": "Machine OS",
+      "domain": "the brain",
       "url": null,
-      "tag": "Widget",
+      "tag": "Law + ops vault",
       "status": "private",
       "src": {
-        "label": "SAVAGE-ONYX",
+        "label": "SAVAGE-MACHINE-OS",
         "url": null
-      }
+      },
+      "logo": "logos/machine-os.svg"
+    },
+    {
+      "name": "Forge",
+      "domain": "shoot → master",
+      "url": null,
+      "tag": "Photo pipeline",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-FORGE",
+        "url": null
+      },
+      "logo": "logos/forge.svg"
+    },
+    {
+      "name": "Stack",
+      "domain": "dev container",
+      "url": null,
+      "tag": "Build template",
+      "status": "private",
+      "src": {
+        "label": "savage-stack",
+        "url": null
+      },
+      "logo": "logos/stack.svg"
     },
     {
       "name": "SAVAGE MCP",
@@ -94,7 +136,8 @@
       "src": {
         "label": "GRAM-BOT",
         "url": null
-      }
+      },
+      "logo": "logos/savage-mcp.svg"
     },
     {
       "name": "Plugin",
@@ -105,7 +148,20 @@
       "src": {
         "label": "savage-plugin",
         "url": null
-      }
+      },
+      "logo": "logos/plugin.svg"
+    },
+    {
+      "name": "Onyx Widget",
+      "domain": "client feedback",
+      "url": null,
+      "tag": "Widget",
+      "status": "private",
+      "src": {
+        "label": "SAVAGE-ONYX",
+        "url": null
+      },
+      "logo": "logos/onyx-widget.svg"
     },
     {
       "name": "Agency Template",
@@ -116,7 +172,8 @@
       "src": {
         "label": "AGENCY-TEMPLATE",
         "url": null
-      }
+      },
+      "logo": "logos/agency-template.svg"
     }
   ]
 }

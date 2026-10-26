@@ -1,28 +1,30 @@
 {
+  "_comment": "Layout for this profile. Shared by the house: the foil, the face, the diamond rule, the plaque. Unique to this page: hero (its own motif), duo ([] hides the portraits), wall (title + columns of build tiles; the tiles come from each item's logo in properties.json), columns (table headers), lawFrame (double|heavy|light|round|pillar|dashed|ledger|prompt), mark (swap in your own mark: drop it in assets/ and point here; markAlt is its alt text).",
   "kind": "org",
   "login": "SAVAGE-SUITE",
-  "hero": "hero-savage-suite.svg",
+  "hero": "hero-savage-suite-blueprint.svg",
   "brand": "SAVAGE SUITE",
   "tagline": "THE ENGINE UNDER THE HOUSE",
   "blurb": "One skin, one kit, one contract — the engine every face in the house runs on.",
-  "duo": [
-    {
-      "name": "THE ARCHITECT",
-      "nameSvg": "name-the-architect.svg",
-      "img": "architect.webp",
-      "alt": "Niko — The Architect",
-      "caption": "PRODUCER · ENGINEER · THE ONE WHO SHIPS"
+  "mark": "s-diamond.png",
+  "markAlt": "The SAVAGE crown-S mark",
+  "duo": [],
+  "wall": {
+    "title": {
+      "svg": "title-the-engine.svg",
+      "alt": "THE ENGINE"
     },
-    {
-      "name": "ONYX",
-      "nameSvg": "name-onyx.svg",
-      "img": "onyx.webp",
-      "alt": "Onyx — the Bengal",
-      "caption": "CHIEF QUALITY BENGAL · STUDIO ENFORCER"
-    }
+    "cols": 5
+  },
+  "rosterTitle": "The packages",
+  "columns": [
+    "Package",
+    "Role",
+    "Where",
+    "Status",
+    "Repo"
   ],
-  "rosterTitle": "The roster",
-  "lastCol": "Build",
+  "lawFrame": "light",
   "law": [
     "ONE SKIN · ONE KIT · ONE CONTRACT",
     "TOKENS OUTRANK DOCS · GOLD IS FOIL, NEVER PAINT"
